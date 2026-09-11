@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eef2f5;
+    padding: 60px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.identitas {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#form-todo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#input-tugas {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    padding: 10px 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.info-tugas {
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+#daftar-tugas {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.item-tugas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.item-tugas.selesai {
+    border-left-color: #2ecc71;
+    background-color: #e8f8f5;
+}
+
+.item-tugas.selesai span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.bagian-kiri {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-hapus {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-hapus:hover {
+    background: #c0392b;
+}

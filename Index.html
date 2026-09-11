@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <p class="identitas">NIM: 535250158 | Nama: Josua Christian Maitimu</p>
+
+        <form id="form-todo">
+            <input type="text" id="input-tugas" placeholder="Mau ngerjain apa hari ini?..." required>
+            <button type="submit">Tambah</button>
+        </form>
+
+        <div class="info-tugas">
+            Tugas belum selesai: <strong id="jumlah-sisa">0</strong>
+        </div>
+
+        <ul id="daftar-tugas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
