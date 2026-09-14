@@ -1,5 +1,4 @@
 let listTugas = [];
-
 const formTodo = document.getElementById('form-todo');
 const inputTugas = document.getElementById('input-tugas');
 const daftarTugas = document.getElementById('daftar-tugas');
